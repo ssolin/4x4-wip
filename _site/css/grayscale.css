@@ -40,7 +40,7 @@ p {
   }
 }
 a {
-  color: #42dca3;
+  color: #fffcee;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -48,7 +48,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #1d9b6c;
+  color: #ffea88;
 }
 .event {
   margin: auto;
@@ -62,6 +62,19 @@ a:focus {
 .event p {
   line-height: initial;
   font-size: 20px;
+}
+#events {
+  background-color: #717B96;
+}
+#apply {
+  background-color: #505D7F;
+  padding-bottom: 200px;
+}
+#contact h2 {
+  margin: 0 0 20px;
+}
+#contact p {
+  margin: 0 0 20px;
 }
 .light {
   font-weight: 400;
@@ -236,6 +249,7 @@ a:focus {
 }
 .content-section {
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 #map {
   width: 100%;
@@ -245,7 +259,7 @@ a:focus {
 @media (min-width: 767px) {
   .content-section {
     padding-top: 150px;
-    padding-bottom: 10px;
+    padding-bottom: 150px;
   }
   .download-section {
     padding: 100px 0;
@@ -261,16 +275,16 @@ a:focus {
   border-radius: 0;
 }
 .btn-default {
-  border: 1px solid #42dca3;
-  color: #42dca3;
+  border: 1px solid #fffcee;
+  color: #fffcee;
   background-color: transparent;
 }
 .btn-default:hover,
 .btn-default:focus {
-  border: 1px solid #42dca3;
+  border: 1px solid #fffcee;
   outline: none;
   color: black;
-  background-color: #42dca3;
+  background-color: #fffcee;
 }
 ul.banner-social-buttons {
   margin-top: 0;
